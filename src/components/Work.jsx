@@ -19,7 +19,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               
                 <span className='text-2xl font-bold text-black tracking-wider'>
-                  HTML, CSS, JS Website
+                  HTML, CSS, JS Website(2023)
                 </span>
                 <div>
                   <a href="https://ronncastaneda.w3spaces.com/">
@@ -40,7 +40,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               
                 <span className='text-2xl font-bold text-white tracking-wider'>
-                  HTML, CSS, JS Website
+                  HTML, CSS, JS Website (2023)
                 </span>
                 
               
@@ -52,7 +52,7 @@ const Work = () => {
             <div className='opacity-0 group-hover:opacity-100'>
               
                 <span className='text-2xl font-bold text-black tracking-wider'>
-                  React JS Version
+                  React JS Version (2023)
                 </span>
                 
               
