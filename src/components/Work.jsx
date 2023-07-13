@@ -18,7 +18,7 @@ const Work = () => {
             {/*Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               
-                <span className='text-2xl font-bold text-black tracking-wider'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
                   HTML, CSS, JS Website(2023)
                 </span>
                 <div>
@@ -51,7 +51,7 @@ const Work = () => {
             {/*Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               
-                <span className='text-2xl font-bold text-black tracking-wider'>
+                <span className='text-2xl font-bold text-white tracking-wider'>
                   React JS Version (2023)
                 </span>
                 
