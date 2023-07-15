@@ -14,6 +14,26 @@ const Work = () => {
       <div  
       className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
         {/*Grid item */}
+        <div style={{backgroundImage: `url(${Work3})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+            {/*Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              
+                <span className='text-2xl font-bold text-white tracking-wider'>
+                  React JS Simple Website (2023)
+                </span>
+                <div>
+                  <a href="https://groupcollab.vercel.app/">
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                  </a>
+
+                  <a href="https://github.com/Ronn02/WebDevAss2">
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                  </a>
+                </div>
+                
+              
+            </div>
+        </div>
         <div style={{backgroundImage: `url(${Work1})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
             {/*Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
@@ -26,9 +46,7 @@ const Work = () => {
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                   </a>
 
-                  <a href="https://ronncastaneda.w3spaces.com/">
-                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                  </a>
+                  
                 </div>
               
             </div>
@@ -47,17 +65,7 @@ const Work = () => {
             </div>
         </div>
 
-        <div style={{backgroundImage: `url(${Work3})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-            {/*Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              
-                <span className='text-2xl font-bold text-white tracking-wider'>
-                  React JS Version (2023)
-                </span>
-                
-              
-            </div>
-        </div>
+        
       </div>
 
 
